@@ -4,9 +4,74 @@
   
     
     <entry>
+      <title>谈一谈前后端分离</title>
+      <link href="/2020/07/07/qian-hou-duan-fen-chi/"/>
+      <url>/2020/07/07/qian-hou-duan-fen-chi/</url>
+      
+        <content type="html"><![CDATA[<p>​                                            ==谈一谈前后端分离==</p><ul><li>在职程序员聊一聊互联网开发中火热的前后端分离。很多人一谈到这个问题就会钻到某项具体的技术中去，比如ajax异步请求、比如SpringBoot+Vue等等。</li><li>但从本质上看,<u>前后端分离</u>本身并不是一个技术问题,而是一个工程化考量和项目管理的问题，主要分为4大步<u>:设计——&gt;开发——&gt;测试——&gt;部署</u>。前后端分离之后，<u>前后端项目独立可部署</u>非常重要。<u>通过==接口==来联系前后端</u>。前后端之间通过约定接口和数据的样式，还有一些参数的格式来进行开发。</li><li>怕就怕很多公司<u>为了前后端分离而去做前后端分离</u>，真正算的上独立的前后端完完全全分离，需要的成本是非常高的。对于一些小项目，就没有必要搞前后端完全分离了。</li><li>最开始那些搞前端的，很没有地位。都被人们称为 <u>页面仔</u> 之类的 。说他们就好好搞页面就行,所有的数据处理都是后端大佬处理。</li><li>从源头上看,在以前，后端开发工程师都是比较有门面的,经常鄙视前端开发工程师。因为后端开发工程师他们的工作都是一些有技术含量的，它们一般在公司都会有一个非常强大的团队。而与前端工程师相比，他们比较零散在公司中，没有什么团队。甚至有一些后端工程师要兼任一些前端工作。这样看来，后端工程师的工作量很大。JSP就是一个典型的前、后端耦合在一起做的典型的例子，里面的html与jsp代码都是由后端来运行部署上线的。JSP的全名叫Java Server Pages，java服务器页面。</li><li>html，css，js这些叫做原生技术，但它们非常重要。在以前，使用这些原生技术去做一些复杂页面的开发时就会变的非常繁琐，本质原因还是因为前端在那个时候没有工程化，模块化和可复用化的思维来做。而对于java在以前就有比如像Spring这样的工程化的开发框架。<u>这就是为什么以前后端发展的快，比较有门面技术的原因</u>)。</li><li>这样一来，开发必然就会出现各种各样的不协调，导致开发效率低。一些项目管理经理就开始注重前后端分离,把前端开发的责任从后端开发工程师身上拿掉,给前端开发工程师一个单独的岗位和责任领域。故此将前端人员与后端人员分离开来，各自做好自己的工作，此后前端也就出现了一个一个的团队。</li><li>学习过前端的人就会发现前端的东西非常琐碎，搞个页面都需要东拼西凑，面向复制粘贴编程，效率极低。就会发现这种开发没有向java那样有逻辑，那样好管理，可复用，有各种工具类、jar包，maven依赖，很明显后端开发有一种工程化的思维，可以满足长期演进和迭代的目标。而前端开发可能很多人都是在收集代码片段。</li><li>近些年由于node的出现让前端领域发生了巨大的改变，前端开发者可以借助node来开发各种工具了。前端脱离了原始的刀耕火种的年代，出现了很多自动化工具，比如webpack，还有各种各样的包管理器，还有像什么预编译工具等等。这些东西的出现-定程度上催生了一大批的前端框架诞生，比如前端领域三大“组件开发件套”:Angular React和Vue (三大框架),这都是因为node这个东西的出现,才有了这样一 些<u>组件化开发框架的到来，使前端开发更加工程化。</u></li><li>但这些火热的框架如vue 底层还是基于这些原生技术的。由于vue是被封装起来的框架，使用者就必须需要按照设计者的规范和套路进行使用，硬化套路。哪一天如果该框架没人维护了。我们学的这些套路也就没用了。所以说那些原生技术很重要</li><li><u>随着移动端的兴起，像Html5, 也就是h5也变得非常火热。</u>还出现了<u>UI主件。</u></li></ul><hr><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>五大主流浏览器</title>
+      <link href="/2020/07/02/wu-da-zhu-liu-liu-lan-qi/"/>
+      <url>/2020/07/02/wu-da-zhu-liu-liu-lan-qi/</url>
+      
+        <content type="html"><![CDATA[<h4 id="五大主流浏览器："><a href="#五大主流浏览器：" class="headerlink" title="五大主流浏览器："></a>五大主流浏览器：</h4><ul><li><p>IE浏览器(Internet Explorer)</p><ul><li>本电脑还有Microsoft Edge浏览器</li><li>Edge: n. 边缘；优势；刀刃；锋利 。</li><li>Microsoft Edge和IE的最大区别就是Edge 是windows之后由微软推出的浏览器。而在windows之前微软系统自家浏览器都是IE。</li><li>目前Edge 浏览器的功能或者说稳定性还有待提高因为毕竟是随windows10才推出来的，当然对比IE优势也很明显，比IE更流畅、外观UI相对于IE还是比较舒服的。故说Microsoft Edge是ie的升级版</li></ul></li><li><p>Chrome浏览器</p></li><li><p>Firefox浏览器(FF浏览器)</p></li><li><p>Safari(观兽旅行,游猎)浏览器 </p><ul><li><p>苹果公司旗下的浏览器。图案是一个指南针。在苹果系统下是很优秀的浏览器,已停止对windows系统的支持。</p></li><li><img src="https://imgsa.baidu.com/exp/pic/item/faacb564034f78f06bb1941d78310a55b2191c62.jpg" alt="img" style="zoom:25%;"> </li></ul></li><li><p>Opera(欧朋)浏览器</p></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>程序员+码农+黑客+工程师</title>
+      <link href="/2020/07/02/cheng-xu-yuan-ma-nong-hei-ke-gong-cheng-shi/"/>
+      <url>/2020/07/02/cheng-xu-yuan-ma-nong-hei-ke-gong-cheng-shi/</url>
+      
+        <content type="html"><![CDATA[<ul><li>程序猿——&gt;攻城狮——&gt;抠底——&gt;敲(抠)代码</li><li>真正的程序员和码农的区别在于:<u>是否可以独立编写代码并且做到简洁</u><ul><li>真正的程序员一般都可以独立编写代码并了解算法，其代码不仅易于理解并且十分简洁，</li><li>而码农虽然对于基本代码编写没问题，但是代码不能达到程序员的水平。码农通常只要求能够熟练使用编程环境，精通几种编程语言、开发框架和开发库，能够按照既定的设计完成编码。</li><li>而程序员要求在码农的基础之上，精通设计模式、算法实现和编码技巧，并具备熟练应用的能力，这个阶段的程序员能够独立编码解决现实问题。</li><li>码农是一个依靠写代码为生的群体，表现在：低收入，工作时间长，这种职位只能强化职业者在单方面的技术领域技能，即”码农”、“复制粘贴员”、“敲代码的”“抠代码”</li><li>而真正的程序员(非初级程序员，也即码农)而言，他们不仅<u>是枚资深的码农</u>，还熟悉与客户沟通的技巧，也懂得市场分析、技术执行分析、价值分析估算项目的风险;他们能独立完成项目使用文档的能力，甚至都可以独立完成一个项目。</li><li>从区别中，我们不难发现：真正的程序员与码农相比最大的区别就在于：真正的程序员不是完完全全的技术工人，其除却技术高超之外，其思维逻辑上的价值，让其不可替代性比码农强多了。</li><li>写程序，也是分体力劳动和脑力劳动的。体力劳动的行内戏称码农。</li><li>码农有点做苦力，重复相同工作的意味，一般都在实现比较常见的业务，比如增删改查。</li><li>如果按照从业者们将自己自嘲为码农的表现，那么码农的程序员分级中理应只属于初级程序员，是<u>属于依靠复制粘贴将各类代码链接的IT从业者。</u></li></ul></li></ul><hr><p>程序员和工程师的区别在于工作的侧重点和目的不用，严格意义上来说，程序员更加注重程序的编写，而工程师则是偏重于算法的设计，具备较强的科研能力，也能够为技术方案提供实现需要用到的算法思路以及难点解决的方案。但是在实际工作中，两者的工作范围会有所交叉，因此<u>程序员也会具备一定的算法设计能力，而工程师也能够为项目进行程序的编写。</u> </p><hr><p>简单地说，BA就类似于是PM（产品经理）的职位，BA是英语单词(Business Analys)缩写，即 <u>业务需求分析师</u>。</p><p>程序员专注业务代码，通常会根据产品，BA需求实现相应的功能开发，书写技术文档等等，而<u>黑客主要是加强自身的技术能力，了解系统，程序的底层原理，试图找到可以利用的bug，通过bug可以进行窃取数据或破解软件的功能</u></p><ul><li>黑客是程序员的子集。</li><li>程序员是一种职业，而黑客是一种兴趣。</li><li>程序员的工作有很多限制，而黑客可以尽情发挥</li><li>一个程序员的黑客梦</li></ul><hr><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>图片的四种格式</title>
+      <link href="/2020/07/01/chang-jian-de-si-chong-tu-pian-ge-shi/"/>
+      <url>/2020/07/01/chang-jian-de-si-chong-tu-pian-ge-shi/</url>
+      
+        <content type="html"><![CDATA[<p>➢图片的四种格式：</p><ul><li>.jpg(有损压缩)</li><li>.gif（动态图片一般为gif格式,gif格式的图片不一定就是动态图片,也可能是静态图片）</li><li>.png(无损压缩 )</li><li>.bmp(Windows 位图,这种图像文件比较大,没压缩过)</li><li>ppt中的图片使用emf格式保存到本地的图片很清晰。</li></ul><hr><p>➢ 文件后辍名为”.jpg或”.jpeg”,是最常用的图像文件格式, 是一种有损压缩格式,能够将图像压缩在很小的储存空间,图像中重复或不重要的资料会被丢失,因此容易造成图像数据的损伤。</p><hr><p>➢动图只能用浏览器或视频播放器或typora进行查看,使用画图工具无法查看。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常见操作系统的使用场景</title>
+      <link href="/2020/07/01/chang-jian-de-3-chong-cao-zuo-xi-tong-de-yong-tu/"/>
+      <url>/2020/07/01/chang-jian-de-3-chong-cao-zuo-xi-tong-de-yong-tu/</url>
+      
+        <content type="html"><![CDATA[<p>➢常见操作系统的使用场景</p><ul><li>windows:写办公文档，做ps抠图处理,但用习惯windows的，使用windows做java开发也是可以的。</li><li>MacOC:使用idea做java的后台开发,是因为它的界面好看，稳定性也比windows好，它是类Unix内核(与Linux操作系统类似)。<u>Linux是基于Unix进行开发。</u></li><li>Linux：在windows上装VM虚拟机软件,在软件上装Linux操作系统。Linux操作系统上主要是装各种实验环境，包括各种集群等,编程相关的基础设施和软件环境都是装在Linux里面的。我们通过使用命令行来对进行liunx操作系统进行操控(可以使用xshell5终端连接工具来操作Linux虚拟机)。公司的线上环境、生产环境都是用Linux居多，因为它的稳定性和安全性都比windows好。不要尝试使用linux操作系统的图形用户界面，因为不好用。</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
-      <link href="/2020/05/26/hello-world/"/>
-      <url>/2020/05/26/hello-world/</url>
+      <link href="/2020/06/27/hello-world/"/>
+      <url>/2020/06/27/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
